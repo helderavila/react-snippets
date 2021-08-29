@@ -1,0 +1,25 @@
+{
+  "React Native Functional Component": {
+    "prefix": ["rnfc"],
+    "body": [
+      "import React from 'react'",
+      "",
+      "import { View } from 'react-native'",
+      "",
+      "// import { styles } from './styles' ",
+      "",
+      "export function ${1:${TM_DIRECTORY/^.*(\\/|\\\\)([^(\\/|\\\\)]+)$/$2/}}() {",
+      "  return <View />",
+      "}"
+    ],
+    "description": "Create React Functional Component"
+  },
+  "React Native Style": {
+    "prefix": "rns",
+    "body": [
+      "import { StyleSheet } from 'react-native'",
+      "",
+      "export const styles = StyleSheet.create({})"
+    ]
+  }
+}
